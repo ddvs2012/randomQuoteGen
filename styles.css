@@ -1,3 +1,21 @@
-h1 {
+body {
+	background-color:  #DDDDDD !important; 
+	color: #DDDDDD !important;
+}
 
+
+
+#quoteBox{
+	margin-top: 100px;
+	height : 200px;
+	background-color : white;
+	border-radius: 3px;
+}
+
+#image{
+	width: 23%;
+}
+
+.bottom{
+	margin-top: 5px;
 }

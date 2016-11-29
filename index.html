@@ -1,1 +1,61 @@
-<html></html>
+<html>
+
+<head>
+	
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	
+	
+</head>
+
+<script>
+ $(document).ready(function() {
+    // Only change code below this line.
+    $("#getMessage").on("click", function(){
+		$(".message").html("Here is the message");
+    });
+    // Only change code above this line.
+  });
+  
+</script>
+
+<body>
+<div class="container">
+	<div class ="row text-center">
+		<div id = "quoteBox" class= "col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3  col-xs-10 col-xs-offset-1 message" >
+			Message Will go Here	
+		</div>
+	</div>
+	<div class="row">
+		<div class="bottom col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3  col-xs-10 col-xs-offset-1">
+			<button id = "getMessage" class = "btn btn-primary">Get Message</button>
+		</div>
+	</div>
+	<div class ="row">
+		<div>
+			<br>
+			<h1>hi</h1>
+			<img id='image'  src="http://i.imgur.com/eg3Quzj.jpg">
+			
+		</div>
+	</div>
+	<div class ="row" >
+		<div>
+			
+		</div>
+	</div>
+	<div class ="row text-center">
+		<div>
+		</div>
+	</div>
+	<div class ="row text-center">
+		<div>
+		</div>
+	</div>
+</div>
+
+
+<script> </script>
+</body>
+</html>
