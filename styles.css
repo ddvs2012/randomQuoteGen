@@ -1,21 +1,63 @@
+
+/*body wont tkae styles exepts when important!*/
 body {
-	background-color:  #DDDDDD !important; 
-	color: #DDDDDD !important;
+	background-color:  #1E9699 !important; 
+	color: #1E9699 !important;
 }
 
 
-
+/*anchored on the left side for some reason when changing width*/
 #quoteBox{
 	margin-top: 100px;
-	height : 200px;
+	padding: 40px 50px;
+	width : 500px;
 	background-color : white;
 	border-radius: 3px;
+	font-family:contrail one;
+}
+
+#quoteText{
+	font-size: 1.5em;
 }
 
 #image{
 	width: 23%;
+	border-radius:3px;
 }
 
-.bottom{
+.bottomSpacing{
 	margin-top: 5px;
 }
+
+div{
+	position:relative;
+	z-index:2;
+}
+
+/* i tag won't take styles except when important*/
+i{
+
+	font-size:40px !important;
+}
+
+/*not taking styles, cant align left */
+#twitter{
+	text-align: left 
+}
+	
+.footer {
+  width:450px;
+  text-align:center;
+  display:block;
+  margin:15px auto 30px auto;
+  font-size:1.0em;
+  color:#fff;
+  /*cant get a tags to change color*/
+  a {
+    font-weight:500;
+    text-decoration:none;
+    color:#fff;
+  }
+}
+
+
