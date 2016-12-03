@@ -5,9 +5,13 @@ body {
 	color: #1E9699 !important;
 }
 
+.danger{
+	color:#FF7C7C;
+}
+
 
 /*anchored on the left side for some reason when changing width*/
-#quoteBox{
+#quoteBox,#quoteBoxTwo{
 	margin-top: 100px;
 	padding: 40px 50px;
 	width : 500px;
@@ -17,6 +21,7 @@ body {
 }
 
 #quoteText{
+	color: #1E9699 !important;
 	font-size: 1.5em;
 }
 
@@ -40,10 +45,7 @@ i{
 	font-size:40px !important;
 }
 
-/*not taking styles, cant align left */
-#twitter{
-	text-align: left 
-}
+
 	
 .footer {
   width:450px;
@@ -60,4 +62,17 @@ i{
   }
 }
 
-
+/*making this a class alone is not effective for some reason, id works without important though*/
+#clickableAwesomeFont {
+     cursor: pointer;
+	 float:left;
+	 background-color:#1E9699;
+	 padding:0pc 2px;
+	 border-radius:3px;
+	 color:white;
+	 
+}
+#tweet{
+	float:left;
+	cursor:pointer;
+}
